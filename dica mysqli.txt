@@ -1,0 +1,8 @@
+$mysqli = new mysqli('localhost','root','','locadora');
+$resultado=$mysqli->query($consulta);
+
+while(list($tipo,$nome,$preco) = $ result->fetch_row()){
+	
+}
+
+$mysqli->close();
