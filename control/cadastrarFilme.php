@@ -35,7 +35,7 @@ include '../js.php';
 				}
 				mysql_close();
 			} else {
-				echo "<font color='red'>Nome é obrigatório!!!</font>";
+				echo "<font color='red'>Nome Ã© obrigatÃ³rio</font>";
 			}
 			
 		}
